@@ -3,7 +3,7 @@ package com.iset.entities;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-
+// la table dans BD est nommée Offre par défaut
 @Entity
 public class Offre {
 	@Id @GeneratedValue
